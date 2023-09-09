@@ -30,15 +30,14 @@ fun main(args: Array<String>) {
        val myDetails: String = "привет, меня зовут " + fullName;
        println(myDetails);
 
-   // Задача 7 - 8- 9
-      val beta = Triple(9, 7, 2023);
-      val mes = beta.first;
-      val den = beta.second;
-      val god = beta.third;
-      println(beta);
-      println("mes: $mes, god: $god");
-
+   // Задача 7
+      val beta = Triple(9, 7, 2023)
+   // Задача 8
+      val (month , day , year) = triple
+   // Задача 9
+      val ( month , _ , year1) = triple
    // Задача 10
-      val alpha: Pair<Int, Int> = Pair(12, god);
-      println(alpha);
+      val month2: Int = month
+       month2 = 5
+      val pair = Pair ( month2, year)
 }
