@@ -1,18 +1,18 @@
 fun main(args: Array<String>) {
     // Задача 1
-       val age1: Int = 32;
+       val age1: Int = 42;
        val age2: Int = 21;
        println(age1);
        println(age2);
 
    // Задача 2
-      val avg1: Int = (32 + 21) / 2;
+      val avg1: Int = (42 + 21) / 2;
       println(avg1);
     // ответ выводится без остатка
 
 
    // Задача 3
-      val avg2: Double = (32.0 + 21.0) / 2;
+      val avg2: Double = (42.0 + 21.0) / 2;
       println(avg2);
 
 
